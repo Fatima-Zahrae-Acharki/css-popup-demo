@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - css popup demo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">    
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="popup-container">
+	<label class="popup-button" for="login-popup">Login</label>
+	<input type="checkbox" id="login-popup">
+	<div class="popup">
+		<label for="login-popup" class="transparent-label"></label>
+		<div class="popup-inner">
+			<label for="login-popup" class="popup-close-btn"><span class='bi bi-x' style="font-size: 50px;"></span></label>
+			
+			<div class="poup">
+			<div class="popup-title">
+				<h6>Painto</h6>
+			</div>
+			<div class="popup-content">
+				<form action="">
+					<ul>
+						<li>
+							<input type="text" placeholder="Username">
+						</li>
+						<li>
+							<input type="password" placeholder="Password">
+						</li>
+						<li>
+							<button type="submit">Log in</button>
+						</li>
+						<li>
+							<p>Don’t have an account ? Please <span>REGISTER</span> </p>
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
